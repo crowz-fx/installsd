@@ -4,7 +4,7 @@ makefile and shell wrapper to install and configuring most used command line sof
 ## Getting the repo
 The below command will get the install script and then clone it locally to $HOME/code/src/github.com/installsd.git
 ```
-curl -s https://raw.githubusercontent.com/crowz-fx/installsd/master/bash/install.sh | bash
+curl -s https://raw.githubusercontent.com/crowz-fx/installsd/master/install.sh | /bin/bash
 ```
 
 ## Installing softwares and configuration
