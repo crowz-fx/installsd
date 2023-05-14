@@ -97,8 +97,8 @@ function install_brew_list() {
     echo "Installed standard brew items!"
 
     echo "Installing brew cask items..."
-    BREW_CASK_INSTALL_ITEMS=( "spectacle" "iterm2" "aws-vault" )
-    # "google-chrome", "dropbox", "sourcetree", "postman", "virtualbox", "vagrant", "vagrant-manager" "visual-studio-code"
+    BREW_CASK_INSTALL_ITEMS=( "iterm2" "aws-vault" )
+    # "google-chrome", "dropbox", "sourcetree", "postman", "virtualbox", "vagrant", "vagrant-manager" "visual-studio-code" "spectacle" 
 
     for item in "${BREW_CASK_INSTALL_ITEMS[@]}"
     do
