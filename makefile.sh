@@ -86,9 +86,9 @@ function install_brew_list() {
 
     echo "Installing standard brew items..."
     BREW_INSTALL_ITEMS=( "colordiff" "fasd" "git" "git-extras" "git-flow" "htop-osx" "jq" "tmux" "tree" "wget" "zsh" "zsh-completions" "node" "ack" "fzf" \
-        "python python3 pipenv" "watch" "yarn" "golang dep" "reattach-to-user-namespace" "the_silver_searcher"  "warrensbox/tap/tfswitch" \
-		"kubectx" "subversion@1.8" "ctop" "git-secret" "helm@2" "awscli" "gnupg")
-	# "grv" "cheat" "ctags" "httpie" "pwgen" "pstree" "packer" "blueutil" "Graphviz" "node@8" "unrar"
+        "python python3 pipenv" "watch" "yarn" "the_silver_searcher"  "warrensbox/tap/tfswitch" \
+		"ctop" "git-secret" "helm@2" "awscli" "gnupg")
+	# "grv" "cheat" "ctags" "httpie" "pwgen" "pstree" "packer" "blueutil" "Graphviz" "node@8" "unrar" "golang dep" "reattach-to-user-namespace" "kubectx" "subversion@1.8" 
 	
     for item in "${BREW_INSTALL_ITEMS[@]}"
     do
