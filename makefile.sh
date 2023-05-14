@@ -26,7 +26,7 @@ function install_zsh_config() {
 
 function install_pip_list() {
     echo "Installing pip and modules..."
-    easy_install --user pip || error_handler
+#     easy_install --user pip || error_handler
     cd /tmp/ && curl -O https://bootstrap.pypa.io/get-pip.py && python3 get-pip.py --user
 	pip3 install awscli glances watchdog ansible virtualenv  --upgrade --user
     echo "Installed pip and modules!"
